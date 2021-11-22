@@ -199,7 +199,7 @@ section.about-us h3.text-center, section.our-services h3.text-center, section.ou
 section.about-us p.text-center , section.our-services p.text-center, section.our-events p.text-center, section.our-gallery p.text-center, section.our-testimonials p.text-center, section.our-contacts p.text-center {
 	font-size:18px;
 	font-weight:300;
-	padding:10px 0 50px;
+	padding:0;
 }
 section.about-us .about-info h4 {
 	font-size:25px;
@@ -261,7 +261,7 @@ section.our-services img.img-responsive {
 /*-- /Services Section --*/
 /*-- Events Section --*/
 section.our-events {
-	padding:100px 0;
+	padding:0;
 	background:url(#) no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -1137,7 +1137,7 @@ section.about-us {
     padding: 35px 0 50px;
 }
 section.about-us p.text-center, section.our-services p.text-center, section.our-events p.text-center, section.our-gallery p.text-center, section.our-testimonials p.text-center, section.our-contacts p.text-center {
-	padding: 5px 0 30px;
+	padding: 0;
 }
 section.our-gallery img.img-responsive {
     width: 200px;
