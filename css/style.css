@@ -188,6 +188,10 @@ body {
 /*-- About Section --*/
 section.about-us {
 	padding:100px 0;
+	display: inline-block;
+	width: 1000px;
+	margin: 0 calc(50% - 500px);
+	text-align: center;
 } 
 section.about-us h3.text-center, section.our-services h3.text-center, section.our-events h3.text-center, section.our-gallery h3.text-center, section.our-testimonials h3.text-center, section.our-contacts h3.text-center {
 	font-size:35px;
@@ -218,6 +222,10 @@ section.about-us p.abt {
 /*-- Services Section --*/
 section.our-services {
 	padding:100px 0;
+	display: inline-block;
+	width: 1000px;
+	margin: 0 calc(50% - 500px);
+	text-align: center;
 	background:url(../images/service.jpg) no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -262,6 +270,10 @@ section.our-services img.img-responsive {
 /*-- Events Section --*/
 section.our-events {
 	padding:0;
+	display: inline-block;
+	width: 1000px;
+	margin: 0 calc(50% - 500px);
+	text-align: center;
 	background:url(#) no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -450,6 +462,10 @@ section.map iframe.googlemaps {
 /*-- Contact Section --*/
 section.our-contacts {
 	padding:100px 0;
+	display: inline-block;
+	width: 1000px;
+	margin: 0 calc(50% - 500px);
+	text-align: center;
 	background:url(#) no-repeat;
     background-attachment: fixed;
     background-position: center;
