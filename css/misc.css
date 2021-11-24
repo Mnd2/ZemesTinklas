@@ -20,7 +20,7 @@
 }
 
 .navbar-inverse .navbar-nav>li>a {
-	color: white;
+	color: #000;
 	margin-top: 15px;
 }
 
@@ -34,10 +34,6 @@
   margin-left: -45px;
 }
 
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-	margin-top: -17px;
-}
-
 .lang {
   float: right;
 	margin-top:  0px;
@@ -46,7 +42,7 @@
 
 .heading {
 	padding: 30px;
-	margin-left: 15px;
+	margin-right: 170px;
 }
 
 .heading h4 {

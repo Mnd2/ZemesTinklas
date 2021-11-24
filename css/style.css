@@ -188,10 +188,6 @@ body {
 /*-- About Section --*/
 section.about-us {
 	padding:100px 0;
-	display: inline-block;
-	width: 1000px;
-	margin: 0 calc(50% - 500px);
-	text-align: center;
 } 
 section.about-us h3.text-center, section.our-services h3.text-center, section.our-events h3.text-center, section.our-gallery h3.text-center, section.our-testimonials h3.text-center, section.our-contacts h3.text-center {
 	font-size:35px;
@@ -222,10 +218,6 @@ section.about-us p.abt {
 /*-- Services Section --*/
 section.our-services {
 	padding:100px 0;
-	display: inline-block;
-	width: 1000px;
-	margin: 0 calc(50% - 500px);
-	text-align: center;
 	background:url(../images/service.jpg) no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -270,10 +262,6 @@ section.our-services img.img-responsive {
 /*-- Events Section --*/
 section.our-events {
 	padding:0;
-	display: inline-block;
-	width: 1000px;
-	margin: 0 calc(50% - 500px);
-	text-align: center;
 	background:url(#) no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -462,10 +450,6 @@ section.map iframe.googlemaps {
 /*-- Contact Section --*/
 section.our-contacts {
 	padding:100px 0;
-	display: inline-block;
-	width: 1000px;
-	margin: 0 calc(50% - 500px);
-	text-align: center;
 	background:url(#) no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -944,31 +928,6 @@ section.our-contacts {
 section.footer {
 	padding:50px 0;
 }
-@media (max-width: 901px) {
-.navbar-brand img{
-margin-top: 120px;
-}
-}
-@media (max-width: 768px) {
-.navbar-brand img{
-margin-top: 120px;
-}
-}
-@media (max-width: 991px) {
-.navbar-brand img{
-margin-top: 120px;
-}
-}
-@media (max-width: 600px) {
-.navbar-brand img{
-margin-top: 120px;
-}
-}
-@media (max-width: 736px) {
-.navbar-brand img{
-margin-top: -100px;
-}
-}
 
 @media (max-width: 991px) {
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
@@ -978,9 +937,7 @@ margin-top: -100px;
 }
 @media (max-width: 768px) {
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-        margin-left: 0px;
-        margin-bottom: 0px;
-        font-size: 35px;
+	margin: -100px 0 0px 0px;
 }
 .contact-info {
     margin-left: 244px;
@@ -1018,9 +975,6 @@ section.our-testimonials .test {
 @media (max-width: 900px) {
 .carousel, .carousel .item {
     height: 497px;
-}
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin: -15px 0 30px 245px;
 }
 section.about-us .about-info h4 {
 	padding-bottom:15px;
@@ -1085,19 +1039,9 @@ section.our-gallery {
 section.footer .footer-center .form-control {
 	margin-bottom:-15px;
 }
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin: -10px 0 30px 260px;
-}
-.navbar-toggle {
-	margin-top:20px;
-}
 
 }
 
-@media (max-width: 667px) {
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin: -10px 0 30px 230px;
-}
 .carousel, .carousel .item {
     height: 311px;
 }
@@ -1106,18 +1050,12 @@ section.footer .footer-center .form-control {
 }
 }
 
-@media (max-width: 640px) {
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin: -10px 0 30px 210px;
-}
-}
-
 @media (max-width: 600px) {
 .carousel, .carousel .item {
     height: 328px;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin: 0px 0 0px 0px;
+    margin: -100px 0 0px 0px;
 }
 }
 
@@ -1126,7 +1064,7 @@ section.footer .footer-center .form-control {
     height: 256px;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin: -10px 0 30px 170px;
+    margin: -100px 0 0px 0px;
 }
 section.our-events .event-info {
 	width:75%;
@@ -1140,11 +1078,6 @@ section.our-testimonials .test {
 .contact-info {
     margin-left: 130px;
 }
-}
-
-@media (max-width: 480px) {
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin: -10px 0 30px 135px;
 }
 section.about-us h3.text-center, section.our-services h3.text-center, section.our-events h3.text-center, section.our-gallery h3.text-center, section.our-testimonials h3.text-center, section.our-contacts h3.text-center {
 	font-size:30px;
@@ -1175,7 +1108,7 @@ section.our-testimonials .test {
     font-size: 16px;
 }	
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin: -11px 0 0 10px;
+    margin-top: -100px;
 }
 section.about-us {
     padding: 25px 0 50px;
@@ -1272,8 +1205,7 @@ section.our-testimonials p.t1 {
     height: 170px;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-	font-size: 30px;
-	margin: -5px 0 0 0px;
+	margin: -100px 0 0 0px;
 }
 section.about-us h3.text-center, section.our-services h3.text-center, section.our-events h3.text-center, section.our-gallery h3.text-center, section.our-testimonials h3.text-center, section.our-contacts h3.text-center {
 	padding:20px 0 10px;
